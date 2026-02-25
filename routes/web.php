@@ -9,7 +9,7 @@ use App\Http\Controllers\PhotoController;
 Route::get('/world', function () {
     return 'World';
 });
-Route::get('/opening', function () {
+Route::get('/', function () {
     return 'Selamat Datang';
 });
 // Route::get('/about', function ($name='Muhammad Firman Aditiasmara', $nim='244107020094') {
