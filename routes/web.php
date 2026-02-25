@@ -57,7 +57,8 @@ Route::resource('photos', PhotoController::class)->except([ // untuk menampilkan
     'create', 'store', 'update', 'destroy' 
 ]);
 
-Route::get('/greeting', [WelcomeController::class, 'greeting']);
+Route::get('/greeting', [WelcomeController::class,'greeting']);
+
 
 
 
